@@ -11,7 +11,7 @@ class Solution {
         for(int j=1 ; j<strs.length;j++){   // time complexity =o(n*m)
 
             if(i==strs[j].length()||strs[j].charAt(i)!=word1.charAt(i)){   // space complexity =o(1)
-                return word1.substring(0,i);
+                return word1.substring(0,i); //it return till i-1
             }
         }
       }
